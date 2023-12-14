@@ -326,7 +326,7 @@ After presenting concluding statements for the five subtopics above, please also
         subtopic_list, A_description_list =self.split_subtopic_and_content(A_conclusion_list)
         _, B_description_list =self.split_subtopic_and_content(B_conclusion_list)
 
-        self.output_dataframe["Topic"] = subtopic_list
+        self.output_dataframe["topic"] = subtopic_list
         self.output_dataframe["Agent-A"] = A_description_list
         self.output_dataframe["Agent-B"] = B_description_list
 
